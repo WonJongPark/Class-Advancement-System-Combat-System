@@ -23,8 +23,32 @@ Player::Player(string nickname = "Default") {
     level = 1;
     HP = 50;
     MP = 50;
-    power = 1;
-    defence = 1;
-    accuracy = 1;
-    speed = 1;
+    power = 10;
+    defence = 10;
+    accuracy = 10;
+    speed = 5;
+}
+
+string Player::getNickname() {
+    return nickname;
+}
+
+string Player::getJobName() {
+    return job_name;
+}
+
+int Player::getDefence() {
+    return defence;
+}
+
+int Player::getHP() {
+    return HP;
+}
+
+void Player::setHP(int HP) {
+    this->HP = HP;
+}
+
+int Player::getSpeed() {
+    return speed;
 }

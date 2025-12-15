@@ -126,6 +126,7 @@
     <ClCompile Include="archer.cpp" />
     <ClCompile Include="magician.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="monster.cpp" />
     <ClCompile Include="player.cpp" />
     <ClCompile Include="thief.cpp" />
     <ClCompile Include="warrior.cpp" />
@@ -133,6 +134,7 @@
   <ItemGroup>
     <ClInclude Include="archer.h" />
     <ClInclude Include="magician.h" />
+    <ClInclude Include="monster.h" />
     <ClInclude Include="player.h" />
     <ClInclude Include="thief.h" />
     <ClInclude Include="warrior.h" />
